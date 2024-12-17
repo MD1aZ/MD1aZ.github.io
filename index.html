@@ -3,44 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Hoja de estilos CSS-->
+    <title>Portfolio de Mario García Díaz</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/e8551675ac.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
 </head>
 <body>
+    <!-- Header con imagen y nombre -->
     <header>
-        <img src="./img/foto (1).jpg" alt="Imagen Curriculum">
-        <h1>Mario Garc&iacute;a D&iacute;az</h1>
+        <img src="./img/foto (1).jpg" alt="Foto de Mario García Díaz">
+        <h1>Mario García Díaz</h1>
     </header>
-    <section>
-        <div class="container">
-            <h2>T&eacute;cnico en Sistemas Microinform&aacute;ticos y Redes</h2>
+    <!-- Sección de presentación personal -->
+    <section class="intro">
+        <h2>Técnico en Sistemas Microinformáticos y Redes</h2>
+        <p>Especialista en Montaje y Mantenimiento de Equipos Informáticos, con experiencia en instalación y gestión de software para empresas. Busco constantemente actualizar mis habilidades y conocimientos para ofrecer soluciones tecnológicas eficaces.</p>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/marioogarciiaa" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.x.com/" title="X/Twitter"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+        </ul>
+        <a href="mailto:mg9studiosloja@gmail.com"><button class="contact-btn">Contacta conmigo</button></a>
+    </section>
+    <!-- Sección de experiencia profesional -->
+    <section class="experiencia">
+        <h2>Experiencia</h2>
+        <div class="experiencia-item">
+            <h3>Prácticas 1er año FP Dual CFGM Sistemas Microinformáticos y Redes en Obrador de Confitería Bonachera</h3>
+            <h4>Marzo 2024 &#124 Mayo 2024</h4>
             <ul>
-            <li><a href="https://www.instagram.com/marioogarciiaa"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
-            <li><a href="https://www.x.com/"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li>Mantenimiento de equipos informáticos y redes.</li>
+                <li>Instalación y configuración de software empresarial.</li>
+                <li>Asistencia técnica a usuarios finales.</li>
             </ul>
         </div>
-        <p>Especialista en Montaje y Mantenimiento de Equipos Inform&aacute;ticos&comma; especializaci&oacute;n en la instalaci&oacute;n de software para empresas</p>
-        <a href="https://www.gmail.com"><button>Contacta conmigo</button></a>
+        <div class="experiencia-item">
+            <h3>Comentarista Deportivo en Viva Televisión</h3>
+            <h4>Septiembre 2021 &#124 Enero 2022</h4>
+            <ul>
+                <li>Presentación y análisis de eventos deportivos en vivo.</li>
+                <li>Elaboración de reportes de noticias deportivas.</li>
+                <li>Colaboración en la producción de contenido televisivo.</li>
+            </ul>
+        </div>
     </section>
-    <section>
-        <h2 id="experiencia">Experiencia</h2>
-        <h3>Pr&aacute;cticas 1er año FP Dual CFGM Sistemas Microinform&aacute;ticos y Redes en Obrador de Confiter&iacute;a Bonachera</h3>
-        <h4>Pr&aacute;cticas de formación en alternancia &#124 Marzo 2024 &#45 Mayo 2024</h4>
-        <p>Pr&aacute;cticas formativas con el programa FP Dual</p>
-        <ul>
-            <li>Tareas de mantenimiento de equipos inform&aacute;ticos</li>
-            <li>Gestión ofimática</li>
-            <li>Carga de trabajo relacionada con la actividad laboral de la empresa</li>
-        </ul>
-        <h3>Comentarista Deportivo en Viva Televisi&oacute;n</h3>
-        <h4>Viva Televisi&oacute;n &#124 Septiembre 2021 &#45 Enero 2022</h4>
+    <!-- Sección de Skills (Hard Skills y Soft Skills) -->
+    <section class="skills">
+        <!-- Hard Skills -->
+        <div class="card">
+            <h3>Hard Skills</h3>
+            <ul>
+                <li>Montaje y mantenimiento de equipos informáticos</li>
+                <li>Instalación y configuración de sistemas operativos</li>
+                <li>Redes LAN/WAN</li>
+                <li>Gestión de servidores</li>
+                <li>Programación básica (HTML, CSS, JavaScript)</li>
+                <li>Instalación de software para empresas</li>
+            </ul>
+        </div>
+        <!-- Soft Skills -->
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Resolución de problemas</li>
+                <li>Adaptabilidad</li>
+                <li>Gestión del tiempo</li>
+                <li>Atención al detalle</li>
+            </ul>
+        </div>
     </section>
+    <!-- Footer con derechos de autor -->
     <footer>
-        <span><i class="fa-solid fa-copyright fa-2xs">Mario Garcia Diaz</i></span>
+        <p><i class="fa-solid fa-copyright fa-2xs"></i> 2024 Mario García Díaz</p>
     </footer>
 </body>
 </html>
